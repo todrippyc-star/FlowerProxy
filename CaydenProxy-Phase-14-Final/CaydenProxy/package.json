@@ -1,0 +1,10 @@
+{
+  "name": "caydenproxy",
+  "version": "7.2.0",
+  "private": true,
+  "description": "CaydenProxy Phase 14: 2D Cayden World with private room codes, human avatars, NPC dialogue and local saves",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node scripts/verify.js"
+  }
+}

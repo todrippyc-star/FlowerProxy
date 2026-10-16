@@ -1,0 +1,38 @@
+/* Shared presentation for honest, supported game-completion and achievement states. */
+.hub-challenge-progress{display:grid;gap:7px;margin:12px 0 2px;padding:10px 11px;border:1px solid var(--line);border-radius:13px;background:var(--panel2)}
+.hub-challenge-line{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:.76rem}
+.hub-challenge-line strong{color:var(--ink);font-variant-numeric:tabular-nums}
+.hub-challenge-meter,.hub-result-meter{height:8px;border-radius:999px;overflow:hidden;background:var(--line)}
+.hub-challenge-meter span,.hub-result-meter span{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--green),var(--coral));transition:width .2s ease}
+.hub-progress-pill.is-cleared{color:var(--green);border-color:color-mix(in srgb,var(--green) 36%,var(--line));background:color-mix(in srgb,var(--green) 10%,var(--panel))}
+.game-clear-screen{max-width:680px;margin:0 auto;padding:clamp(18px,4vw,32px);border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,var(--panel),var(--panel2));text-align:center;box-shadow:var(--shadow)}
+.game-clear-screen h3{margin:.4rem 0 .75rem;font-size:clamp(1.45rem,3vw,2rem);letter-spacing:-.035em}
+.hub-result-score{font-size:clamp(2.2rem,7vw,3.5rem);font-weight:950;letter-spacing:-.06em;color:var(--ink);font-variant-numeric:tabular-nums;margin:14px auto 9px}
+.hub-result-score span{font-size:.43em;letter-spacing:0;font-weight:800;color:var(--muted)}
+.hub-result-meter{max-width:430px;margin:10px auto 16px;height:12px}
+.game-earned-badge{display:inline-flex;align-items:center;gap:7px;margin:8px auto;padding:9px 13px;border:1px solid color-mix(in srgb,var(--yellow) 60%,var(--line));border-radius:999px;background:color-mix(in srgb,var(--yellow) 18%,var(--panel));font-weight:900}
+.game-clear-actions{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin-top:18px}
+.scramble-word{display:flex;align-items:center;justify-content:center;min-height:88px;margin:8px 0 14px;padding:14px;border-radius:18px;background:color-mix(in srgb,var(--yellow) 18%,var(--panel));font-size:clamp(1.55rem,5vw,2.5rem);font-weight:950;letter-spacing:.16em;overflow-wrap:anywhere}
+@media(max-width:600px){.hub-challenge-progress{padding:9px}.hub-challenge-line{font-size:.72rem}.game-clear-actions>*{flex:1 1 100%}}
+@media(prefers-reduced-motion:reduce){.hub-challenge-meter span,.hub-result-meter span{transition:none}}
+
+/* Phase 10: procedural Question Engine and local subject mastery. */
+.qe-type-label{display:inline-flex;align-items:center;gap:.45rem;margin:.3rem 0 .8rem;padding:.35rem .7rem;border-radius:999px;background:var(--panel2);border:1px solid var(--line);color:var(--muted);font-weight:800;font-size:.78rem}
+.quiz-typed-response{max-width:620px;margin:0 auto 18px;padding:18px;border:1px solid var(--line);border-radius:18px;background:var(--panel);display:grid;gap:10px;text-align:left}
+.quiz-typed-response label{font-weight:900}
+.quiz-typed-response input{width:100%;min-height:54px;padding:12px 14px;border-radius:13px;border:1px solid var(--line);background:var(--panel2);color:var(--ink);font:inherit}
+.quiz-typed-response input:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 55%,transparent);outline-offset:2px}
+.quiz-typed-response button{justify-self:start}
+.qe-mastery-panel{margin:18px 0}
+.qe-mastery-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}
+.qe-mastery-summary>div{padding:12px;border:1px solid var(--line);border-radius:14px;background:var(--panel2);display:grid;gap:3px}
+.qe-mastery-summary strong{font-size:1.45rem}
+.qe-mastery-summary span,.qe-mastery-head span{font-size:.78rem;color:var(--muted)}
+.qe-mastery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.qe-mastery-row{min-width:0;border:1px solid var(--line);border-radius:13px;padding:12px}
+.qe-mastery-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+.qe-mastery-head span{text-align:right}
+.qe-mastery-meter{height:9px;border-radius:999px;background:var(--panel2);overflow:hidden}
+.qe-mastery-meter span{display:block;height:100%;border-radius:inherit;background:var(--green);transition:width .2s ease}
+@media(max-width:600px){.qe-mastery-grid{grid-template-columns:1fr}.qe-mastery-summary{gap:6px}.qe-mastery-summary>div{padding:9px}.qe-mastery-head{align-items:flex-start;flex-direction:column}.qe-mastery-head span{text-align:left}}
+@media(prefers-reduced-motion:reduce){.qe-mastery-meter span{transition:none}}

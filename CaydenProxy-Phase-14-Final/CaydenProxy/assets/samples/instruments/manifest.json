@@ -1,0 +1,247 @@
+{
+  "title": "CaydenProxy Instrument Texture Bank",
+  "version": 1,
+  "notes": "Original synthesized one-shot texture samples. These are not recordings of real instruments; the web app combines them with real-time Web Audio models.",
+  "samples": [
+    {
+      "name": "Soft Piano",
+      "file": "soft-piano.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "keys",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Grand Piano",
+      "file": "grand-piano.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "keys",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Electric Piano",
+      "file": "electric-piano.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "keys",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Jazz Piano",
+      "file": "jazz-piano.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "keys",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Concert Piano",
+      "file": "concert-piano.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "keys",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Acoustic Guitar",
+      "file": "acoustic-guitar.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "pluck",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Electric Guitar",
+      "file": "electric-guitar.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "string",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Bass Guitar",
+      "file": "bass-guitar.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "bass",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Classical Guitar",
+      "file": "classical-guitar.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "pluck",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Rock Kit",
+      "file": "rock-kit.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "drums",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Jazz Kit",
+      "file": "jazz-kit.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "drums",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Electronic Kit",
+      "file": "electronic-kit.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "drums",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Studio Kit",
+      "file": "studio-kit.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "drums",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Violin",
+      "file": "violin.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "bow",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Cello",
+      "file": "cello.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "bow",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Viola",
+      "file": "viola.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "bow",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Harp",
+      "file": "harp.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "pluck",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Flute",
+      "file": "flute.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "wind",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Clarinet",
+      "file": "clarinet.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "wind",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Oboe",
+      "file": "oboe.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "wind",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Saxophone",
+      "file": "saxophone.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "wind",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Trumpet",
+      "file": "trumpet.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "brass",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Trombone",
+      "file": "trombone.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "brass",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "French Horn",
+      "file": "french-horn.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "brass",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Retro Synth",
+      "file": "retro-synth.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "synth",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Arcade Synth",
+      "file": "arcade-synth.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "synth",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "EDM Synth",
+      "file": "edm-synth.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "synth",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Ambient Synth",
+      "file": "ambient-synth.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "pad",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Recorder",
+      "file": "recorder.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "wind",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    },
+    {
+      "name": "Xylophone",
+      "file": "xylophone.wav",
+      "sampleRate": 22050,
+      "durationSeconds": 1.65,
+      "kind": "pluck",
+      "license": "Original procedurally synthesized for CaydenProxy; no third-party recording."
+    }
+  ]
+}
